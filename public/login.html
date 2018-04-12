@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login Page</title>
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/LoginFormStyle.css">
+  <link rel="stylesheet" type="text/css" href="css/TopBar.css">
+  <link rel="stylesheet" type="text/css" href="css/BottomBar.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="top-bar">
+    <a href="/"><img src="img/logo.png" alt="Top Bar" class="logo"></a>
+  </div>
+  <div class="container-fluid bg">
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+        <div class="form-container">
+          <form id="login-form">
+            <h1>Member Login</h1>
+            <div class="form-group">
+              <label for="txtUname">Username</label>
+              <input type="text" class="form-control" id="txtUname" placeholder="Username">
+            </div>
+            <div class="form-group">
+              <label for="txtPwd">Password</label>
+              <input type="password" class="form-control" id="txtPwd" placeholder="Password">
+            </div>
+            <div class="checkbox">
+              <label>
+					  <input type="checkbox"> Remember me
+					</label>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg btn-block">Login</button>
+          </form>
+          <div class="register">
+            <p>Not Registered? <a href="signup.html">Create an Account</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar navbar navbar-fixed-bottom">
+    <div class="legal">
+      <p>Copyright &#169; 2018 connectwith.me, Inc. All rights reserved.</p>
+    </div>
+  </div>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/dpd.js"></script>
+    <script type="text/javascript" src="scripts/loginScript.js"></script>
+</body>
+
+</html>

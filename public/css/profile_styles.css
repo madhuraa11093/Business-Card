@@ -1,0 +1,86 @@
+h2, h3, h4, pre {
+  font-family: "Raleway", sans-serif;
+  color: #333;
+}
+
+h2 {
+  font-size: 2.3em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+label {
+  font-size: 30px;
+}
+
+pre{
+  width: 700px;
+  overflow:auto;
+  white-space: initial;
+}
+
+body{
+  /* The image used */
+  background-image: url("../img/bg3.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+#profilePic{
+  width: 50%;
+  text-align: center;
+}
+
+.width50{
+  width: 50%;
+}
+
+/* Footer will follow the scrollbar and always be at the bottom*/
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -52px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 52px;
+}
+
+.w3-card-4{
+  background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.site-footer {
+   font-family: "Raleway", sans-serif;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+.profile-container {
+    max-width: 800px;
+    min-width:800px;
+    margin: auto;
+}
+
+.w3-bar {
+  padding: 5px;
+}
+
+.web-title {
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold
+}

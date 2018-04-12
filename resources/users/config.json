@@ -1,0 +1,77 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"firstname": {
+			"name": "firstname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "firstname",
+			"order": 0
+		},
+		"lastname": {
+			"name": "lastname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "lastname",
+			"order": 1
+		},
+		"profession": {
+			"name": "profession",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "profession",
+			"order": 2
+		},
+		"email": {
+			"name": "email",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "email",
+			"order": 3
+		},
+		"contactno": {
+			"name": "contactno",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "contactno",
+			"order": 4
+		},
+		"aboutme": {
+			"name": "aboutme",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "aboutme",
+			"order": 5
+		},
+		"userFragment": {
+			"name": "userFragment",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "userFragment",
+			"order": 6
+		},
+		"fburl": {
+			"name": "fburl",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "fburl",
+			"order": 7
+		},
+		"liurl": {
+			"name": "liurl",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "liurl",
+			"order": 8
+		}
+	}
+}

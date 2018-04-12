@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/TopBar.css">
+  <link rel="stylesheet" type="text/css" href="css/BottomBar.css">
+</head>
+
+<body>
+  <div class="top-bar">
+    <a href="/"><img src="img/logo.png" alt="Top Bar" class="logo"></a>
+  </div>
+  <div class="main-container">
+    <div class="form-container">
+      <form id="signup_form">
+        <legend>
+          <center>
+            <h2><b>SIGN UP!</b></h2></center>
+        </legend><br>
+        <div class="form-group">
+          <div class="inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="first_name" id="first_name" placeholder="First Name" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="last_name" id="last_name" placeholder="Last Name" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="selectContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+              <select name="profession" id="profession" class="form-control selectpicker">
+                <option value="">Choose Your Profession</option>
+                <option value="Actor">ACTOR</option>
+                <option value="Architect">ARCHITECT</option>
+                <option value="Doctor">DOCTOR</option>
+                <option value="Engineer">ENGINEER</option>
+                <option value="Student">STUDENT</option>
+                <option value="Teacher">TEACHER</option>
+          </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="user_name" id="user_name" placeholder="Username" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="user_password" id="user_password" placeholder="Password" class="form-control" type="password">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+              <input name="email" id="email" placeholder="E-Mail Address" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+              <input name="contact_no" id="contact_no" placeholder="(777)-777-7777" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+              <textarea class="form-control" name="about_me" id="about_me" placeholder="Tell us something about yourself..." rows="3"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+              <input class="form-control" id="fb_url" name="fb_url" type="url" placeholder="Please provide Facebook URL">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+              <input class="form-control" id="li_url" name="li_url" type="url" placeholder="Please provide LinkedIn URL">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-btn">
+            <span class="btn btn-default btn-file">
+                  Browse… <input onchange="ValidateSize(this)" type="file" id="imgInp" accept="image/x-png,image/gif,image/jpeg">
+            </span>
+            </span>
+            <input name="image" type="text" class="form-control" readonly>
+          </div>
+          <small class="form-text text-muted">Please upload an image for your profile</small><br>
+          <img id="img-upload" />
+        </div>
+        <div class="form-group">
+          <div><br>
+            <button type="submit" id="btnsubmit" class="btn btn-warning">SUBMIT<span class="glyphicon glyphicon-send"></span></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="bottom-bar navbar navbar-fixed-bottom">
+    <div class="legal">
+      <p>Copyright &#169; 2018 connectwith.me, Inc. All rights reserved.</p>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/dpd.js"></script>
+  <script type="text/javascript" src="scripts/signupScript.js" charset="utf-8"></script>
+</body>
+
+</html>

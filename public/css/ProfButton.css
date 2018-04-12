@@ -1,0 +1,61 @@
+.container .heading {
+  margin-top: 14%;
+  margin-left: 10%;
+  font-family: initial;
+  font-size: 45px;
+}
+
+.container .paragraph {
+  margin-top: 12%;
+  margin-left: 8%;
+  color: #ffffff;
+  font-family: Georgia, serif;
+  font-size: 19px;
+}
+
+.buttons {
+  float: right;
+  padding-right: 1%;
+}
+
+/** Button Style **/
+
+.button {
+  /** Font Style **/
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.30) 0 -1.25px 0;
+  /** Button Style **/
+  /* display: -moz-inline-stack; */
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: auto;
+  zoom: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #96463a;
+  background: #b64737;
+  padding: 11px 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0, inset rgba(255, 255, 255, 0.3) 0 1px 0;
+  -moz-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0, inset rgba(255, 255, 255, 0.3) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0, inset rgba(255, 255, 255, 0.3) 0 1px 0;
+}
+
+/** Active State Style **/
+
+.button:active {
+  border-color: #083559;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0, inset rgba(0, 0, 0, 0.25) 0 1px 4px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0, inset rgba(0, 0, 0, 0.25) 0 1px 4px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0, inset rgba(0, 0, 0, 0.25) 0 1px 4px;
+}

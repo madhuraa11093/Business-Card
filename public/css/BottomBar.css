@@ -1,0 +1,15 @@
+.bottom-bar {
+  background-color: #333333;
+  height: 50px;
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.legal {
+  height: 100%;
+  width: auto;
+  padding-right: 1%;
+  padding-top: 1%;
+  color: #ffffff;
+}

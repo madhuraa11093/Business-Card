@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/profile_styles.css">
+  <link rel="stylesheet" type="text/css" href="css/ProfButton.css">
+  <link rel="stylesheet" type="text/css" href="css/ProfTopBar.css">
+
+  <title>Profile Page</title>
+</head>
+
+<body>
+<!-- Header - - - - - - - - - - - - - - - - - - - - - -->
+  <div class="top-bar">
+    <a href="/"><img src="img/logo.png" alt="Top Bar" class="logo"></a>
+    <nav class="buttons">
+      <a href="" class="button" id="btnLogout">Logout</a>
+    </nav>
+  </div>
+
+    <!-- Profile Container split into two sections (top/bottom) -->
+    <div class="profile-container page-wrap">
+      <div class="w3-container w3-center w3-margin w3-card-4">
+        <!-- Top Container for profile information(profile image,name,logo,about me paragraph) -->
+        <div class="w3-container w3-cell-top" >
+          <img src="" alt="Profile" class="w3-margin-top w3-image" id="profilePic">
+          <!-- <img src="" alt="Profile" class="img img-responsive" id="profilePic"> -->
+          <h2 id="profileName"></h2>
+          <p id="profileAbout">
+            
+          </p>
+        </div>
+        <!-- Bottom Container for contact information and social media links -->
+        <!-- Contains two cotainers put in a row(left/right), each taking 50% space -->
+        <div class="w3-container w3-cell-bottom w3-cell-row">
+          <div class="w3-container w3-cell width50">
+            <h3>Contact Information</h3>
+            <h4 id="profilePhone"></h4>
+            <h4 id="profileEmail"></h4>
+          </div>
+          <div class="w3-container w3-cell width50">
+            <h3>Social Media</h3>
+            <div class="social-btns">
+              <a href="" id="linkedin" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+              <a href="" id="facebook" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div align="right">
+<footer class="site-footer w3-black w3-align-right">
+      <p>Copyright &#169; 2018 connectwith.me, Inc. All rights reserved.</p>
+    </footer>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/dpd.js"></script>
+  <script type="text/javascript" src="scripts/profileScript.js" charset="utf-8"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</body>
+
+</html>
